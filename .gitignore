@@ -311,6 +311,7 @@ Session.vim
 
 # Temporary
 .netrwhist
+draft.md
 
 # Auto-generated tag files
 tags
