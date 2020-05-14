@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Good Praxist Igor'
 SITENAME = 'My Blog'
-SITEURL = ''# 'https://igorstrapko.github.io/blog/'
+SITEURL = ''# 'https://igorstrapko.github.io/blog'
 
 PATH = 'content'
 
@@ -29,7 +29,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 6
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
