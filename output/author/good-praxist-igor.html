@@ -1,61 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>My Blog - Articles by Good Praxist Igor</title>
         <meta charset="utf-8" />
-
-       <link rel="stylesheet" type="text/css" href="https://igorstrapko.github.io/blog/theme/css/style.css" />
+        <title>My Blog - Good Praxist Igor</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://igorstrapko.github.io/blog/">My Blog <strong></strong></a></h1>
+                <h1><a href="/">My Blog </a></h1>
+                <nav><ul>
+                    <li><a href="/pages/about_me.html">About_me</a></li>
+                    <li><a href="/category/posts.html">Posts</a></li>
+                </ul></nav>
         </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li><a href="https://igorstrapko.github.io/blog/pages/about_me.html">About_me</a></li>
-            <li><a href="https://igorstrapko.github.io/blog/category/posts.html">Posts</a></li>
-        </ul></nav><!-- /#menu -->
-<section id="content">
-<h2>Articles by Good Praxist Igor</h2>
 
-<ol id="post-list">
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://igorstrapko.github.io/blog/third-post.html" rel="bookmark" title="Permalink to Third post">Third post</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2020-05-13T14:32:00+01:00"> Wed 13 May 2020 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="https://igorstrapko.github.io/blog/author/good-praxist-igor.html">Good Praxist Igor</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Third.</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://igorstrapko.github.io/blog/second-post.html" rel="bookmark" title="Permalink to Second post">Second post</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2020-05-11T00:00:00+01:00"> Mon 11 May 2020 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="https://igorstrapko.github.io/blog/author/good-praxist-igor.html">Good Praxist Igor</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>After a while I am coming back to learn Pelican, so Good Praxis Blog is going to be sharp as a razor soon.</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://igorstrapko.github.io/blog/first-post-init.html" rel="bookmark" title="Permalink to First">First</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2020-04-28T18:53:00+01:00"> Tue 28 April 2020 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="https://igorstrapko.github.io/blog/author/good-praxist-igor.html">Good Praxist Igor</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Hi there!</p> </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/third-post.html">Third&nbsp;post</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2020-05-13T14:32:00+01:00">
+                Published: Wed 13 May 2020
+        </abbr>
+		<br />
+        <abbr class="modified" title="2020-05-20T15:39:00+01:00">
+                Updated: Wed 20 May 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/good-praxist-igor.html">Good Praxist Igor</a>
+        </address>
+<p>In <a href="/category/posts.html">Posts</a>.</p>
+
+</footer><!-- /.post-info --><p>Third.</p>
+<h3>Code&nbsp;snippet</h3>
+<div class="highlight"><pre><span></span><code><span class="err">def test(snippet):</span>
+<span class="err">    for item in snippet:</span>
+<span class="err">        print(f&#39;{item} as a item belongs to this snippet&#39;)</span>
+</code></pre></div>
+
+
+<h1>Bullet&nbsp;list</h1>
+<ul>
+<li>Third&nbsp;list</li>
+<li>Third&nbsp;list</li>
+</ul>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/second-post.html" rel="bookmark"
+                           title="Permalink to Second post">Second&nbsp;post</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-05-11T00:00:00+01:00">
+                Published: Mon 11 May 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/maciej-baron.html">Maciej Baron</a>
+                        <a class="url fn" href="/author/good-praxist-igor.html">Good Praxist Igor</a>
+        </address>
+<p>In <a href="/category/posts.html">Posts</a>.</p>
+<p>tags: <a href="/tag/tagunio.html">tagunio</a> </p>
+</footer><!-- /.post-info -->                <p>After a while I am coming back to learn Pelican, so Good Praxis Blog is going to be sharp as a razor&nbsp;soon.</p>
+                <a class="readmore" href="/second-post.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
+
 </body>
 </html>

@@ -6,6 +6,7 @@ Tags: tagunio
 Keywords: keyword, training, checking, learning
 Summary: After a while I am coming back to learn Pelican, so Good Praxis Blog is going to be sharp as a razor soon.
 Lang: en
+Authors: Maciej Baron, Good Praxist Igor
 
 Hello again,
 

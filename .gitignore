@@ -320,3 +320,6 @@ tags
 everycheese/media/
 
 .pytest_cache/
+
+# notebook draft file
+draft.md
